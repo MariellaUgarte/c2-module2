@@ -17,7 +17,7 @@ sample = [
     def redColor (sample)
         for i in 0..sample.length - 1
             for j in 0..sample[i].length - 1
-                if sample[i][j][0] > 100 && sample[i][j][1] < sample[i][j][0] /4 && sample[i][j][2] < sample[i][j][0]
+                if sample[i][j][0] > 100 && sample[i][j][1] < sample[i][j][0] /4 && sample[i][j][2] < sample[i][j][0]/4
                     $count +=1
                     sample[i][j]
                      
